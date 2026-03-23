@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  
   <!-- Header -->
   <header>
     <nav class="navbar">
@@ -17,10 +18,11 @@
         <li><a href="about.html">About Us</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
-      <input type="text" placeholder="Search jewelry..." class="search-bar">
+      <button onclick="search()" aria-placeholder="Search" class="search-bar"> Search jwelery </button>
+      
       <div class="icons">
-        <span>👤</span>
-        <span>🛒</span>
+        <span class="chang">👤</span>
+        <span class="chang">🛒</span>
       </div>
     </nav>
   </header>
@@ -29,10 +31,20 @@
   <section class="hero">
     <h2>Timeless Elegance</h2>
     <p>Discover our exquisite collection of handcrafted luxury jewelry</p>
-    <button onclick="shopNow()">Shop Now →</button>
   </section>
+  <section class="intro">
+  <p>
+    Welcome to <strong>Luxe Jewels</strong>, where timeless elegance meets modern craftsmanship. 
+    For over 25 years, we have been dedicated to creating exquisite jewelry pieces that celebrate 
+    life’s most precious moments. From dazzling rings and necklaces to heirloom-worthy bracelets 
+    and earrings, each creation is meticulously handcrafted by master artisans using ethically 
+    sourced materials. Discover a collection designed to inspire, captivate, and become a part 
+    of your story.
+  </p>
+  <button onclick="shopNow()"><a href="products.html" class="changes">Shop Now →</a></button>
+</section>
 
-  <!-- Footer -->
+   <!-- Footer -->
 <footer class="footer">
   <div class="footer-container">
     <!-- Brand Info -->
@@ -45,8 +57,7 @@
         <a href="#">🐦 Twitter</a>
       </div>
     </div>
-
-    <!-- Quick Links -->
+  <!-- Quick Links -->
     <div class="footer-section">
       <h4>Quick Links</h4>
       <ul>
@@ -56,6 +67,7 @@
         <li><a href="#">Admin</a></li>
       </ul>
     </div>
+   
 
     <!-- Customer Service -->
     <div class="footer-section">
