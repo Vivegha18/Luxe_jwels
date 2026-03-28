@@ -30,8 +30,13 @@ body {
 
 .search-bar {
   padding: 5px;
-  margin-left: 20px;
+  background: gold;
+  border: black;
+  cursor: pointer;
+  font-weight: bold;
 }
+
+
 
 .hero {
   text-align: center;
@@ -51,7 +56,24 @@ body {
   cursor: pointer;
   font-weight: bold;
 }
-
+.intro {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #444;
+}
+.intro strong {
+  color: gold; 
+}
+.intro button {
+   background: gold;
+  border: black;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
 
 .img:hover {
   transform: scale(1.05);
@@ -84,7 +106,7 @@ body {
 .product-card img {
   width: 200px;
   height: 200px;
-  object-fit: cover; /* keeps proportions while cropping */
+  object-fit: cover; 
   border-radius: 5px;
 }
 
@@ -169,6 +191,9 @@ form button {
   background: #000;
   color: #fff;
   padding: 30px 20px;
+  position:relative;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-container {
@@ -210,3 +235,13 @@ form button {
   margin-top: 20px;
   font-size: 0.9rem;
 }
+
+.changes{
+  text-decoration: none;
+  color: black  ;
+}
+
+.chang:hover{
+  cursor: pointer;
+}
+
